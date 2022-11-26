@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>鼠标特效demo</title>
+	<script src="./cursor-effects/browser.js"></script>
+  	
+</head>
+<body>
+	<div style="width: 100%;height: 300px;" id="ghost">
+		
+
+	</div>	
+</body>
+
+<script>
+	
+  	const targetElement = document.querySelector("body")
+	new cursoreffects.trailingCursor({element: targetElement});
+</script>
+<script src="./cursor-effects/cursor-effects.js"></script>
+<script src="./cursor-effects/sward-coming.js"></script>
+
+</html>
